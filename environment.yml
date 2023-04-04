@@ -4,10 +4,8 @@ name: apienvtest
 dependencies:
 - python==3.8
 - pandas==1.5.3
-- numpy=1.13.3
 - pip
 - pip:
   # works for regular pip packages
   - requests==2.28.1
-  - matplotlib==2.0.0
   - jupyter
