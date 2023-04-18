@@ -10,3 +10,9 @@ main_path = os.getcwd()
 csv_file_path = os.path.join(os.path.join(main_path, DATA_FOLDER), CSV_FILE_NAME)
 text_file_path = os.path.join(os.path.join(main_path, DATA_FOLDER), TXT_FILE_NAME)
 json_file_path = os.path.join(os.path.join(main_path, DATA_FOLDER), JSON_FILE_NAME)
+
+
+save_path = os.path.join(main_path, DATA_FOLDER)
+
+COMBINED_DATA = "combined_data.csv"
+combined_data_file_path = os.path.join(os.path.join(main_path, DATA_FOLDER), COMBINED_DATA)
