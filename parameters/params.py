@@ -16,3 +16,12 @@ save_path = os.path.join(main_path, DATA_FOLDER)
 
 COMBINED_DATA = "combined_data.csv"
 combined_data_file_path = os.path.join(os.path.join(main_path, DATA_FOLDER), COMBINED_DATA)
+
+
+autogluon_params = {
+    "save_path": 'artifacts/models',
+    "time_limit": 240,
+    "label": 'properties.sentiment',
+    "problem_type": "regression"
+
+} 
