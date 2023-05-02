@@ -19,9 +19,9 @@ combined_data_file_path = os.path.join(os.path.join(main_path, DATA_FOLDER), COM
 
 
 autogluon_params = {
-    "save_path": 'artifacts/models',
+    "save_path": 'artifacts/model',
     "time_limit": 240,
-    "label": 'properties.sentiment',
+    "label": 'test',
     "problem_type": "regression"
 
 } 
