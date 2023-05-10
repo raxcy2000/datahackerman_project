@@ -1,7 +1,8 @@
 # ignore data files
 .DS_Store
 data/
-artifacts
+artefacts/
+my_saved_dir/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

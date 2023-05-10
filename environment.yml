@@ -13,3 +13,6 @@ dependencies:
   - folium
   - torch==1.13.1 torchvision==0.14.1 -f https://download.pytorch.org/whl/torch_stable.html
   - autogluon
+  - autogluon.text
+  - seaborn
+  - wordcloud
